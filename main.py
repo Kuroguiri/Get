@@ -137,7 +137,19 @@ main()
 
 def counter (*ct, count=0):
     for n in ct:
-      count+=2
-    return count
-print(counter(1,2,3,4,5,6))
-updateer
+      count+=1
+    print(count)
+
+per_a = counter
+per_a(1,2,3)
+per_a(1)
+per_a(5,67,12,7,234,7,3)
+
+def do (a,b,operation):     #func as a per in another func
+    return operation(a,b)
+def sum(a,b):
+    return a+b
+def mult(a,b):
+    return a*b
+print()
+print(do(5,6,lambda a,b:a*b)) #lambda func as a one-line func without name, which can transfer in another func
