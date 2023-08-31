@@ -140,3 +140,4 @@ def counter (*ct, count=0):
       count+=2
     return count
 print(counter(1,2,3,4,5,6))
+update
