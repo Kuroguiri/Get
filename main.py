@@ -56,9 +56,9 @@ else: print("Aga")
 # print(Ass+".")
 
 # print(1*2+3-5)
-# print(3/2)
-# print(3//2,"\"//\" operator get result without fraction") # // result without fraction
-# print(2.5%2, " % operator gets fraction truly in float, and rounded in integer")
+print(3/2)
+print(3//2,"\"//\" operator get result without fraction") # // result without fraction
+print(2.5%2, " % operator gets fraction truly in float, and rounded in integer")
 # print(5**3)
 # greatNum = 50
 # greatNum += greatNum
@@ -153,3 +153,4 @@ def mult(a,b):
     return a*b
 print()
 print(do(5,6,lambda a,b:a*b)) #lambda func as a one-line func without name, which can transfer in another func
+print("Hi pidarmot")
